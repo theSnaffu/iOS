@@ -24,25 +24,24 @@ Requirements
 ``` 
 'gem install cocoapods'
 ```
- 
   2. Create your podfile and install
     1. Create a file in your XCode project directory and name it 'Podfile' In the podfile add the following line:
-```
+``` 
 pod 'SnaffuKit'
 ```
     2. In your terminal navigate to the project directory and run:
-```
+``` 
 pod install
 ```
     3. Start Up Static Lib
       1. In your AppDelegate.m at the top:
-```
+``` 
 import "SnaffuKit.h"
 ```
       2. In your init method add:
-```
+``` 
 [SnaffuKit startUpToken:@"YOUR_APP_TOKEN"];
-```
+``` 
 
 
 License:
