@@ -10,4 +10,5 @@
 
 @interface SnaffuKit : NSObject
 + (void)startUpToken:(NSString *)token;
++ (void)startUpTokenWithAutomation:(NSString *)token;
 @end
